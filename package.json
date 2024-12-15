@@ -1,0 +1,16 @@
+{
+  "name": "06_cypress_1",
+  "version": "1.0.0",
+  "description": "Любые вопросы по решению задач задавайте в чате учебной группы.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "npx cypress open",
+    "dev": "vite --host"
+  },
+  "author": "SergGrebnev",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.16.1"
+  }
+}
