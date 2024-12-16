@@ -1,0 +1,10 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "retries": 1,
+  "env": {
+    "something": "macbook-16"
+  },
+
+  "viewportWidth": 1536,
+  "viewportHeight": 960
+}

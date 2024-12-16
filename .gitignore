@@ -10,3 +10,4 @@ package-lock.json
 user.js
 .prettierignore
 .prettierrc
+cypress/downloads/

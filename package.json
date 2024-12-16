@@ -6,7 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "open": "npx cypress open",
-    "dev": "vite --host"
+    "iOpen": "npx cypress open --env configFile=iphone-8",
+    "mOpen": "npx cypress open --env configFile=macbook-16",
+    "iRun": "cypress run --headed --env configFile=iphone-8",
+    "mRun": "cypress run --headed --env configFile=macbook-16",
+    "cypress1": "cypress run --headed --browser chrome",
+    "cypress2": "cypress run --headless --browser chrome",
+    "cypress3": "cypress run --headed --browser firefox",
+    "cypress4": "cypress run --headless --browser firefox"
   },
   "author": "SergGrebnev",
   "license": "ISC",
